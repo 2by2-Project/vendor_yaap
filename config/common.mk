@@ -209,3 +209,6 @@ $(call inherit-product, vendor/themes/common.mk)
 
 # Sepolicy
 $(call inherit-product, vendor/yaap/config/sepolicy.mk)
+
+# Include 2by2 common configurations
+include vendor/2by2/config/common.mk
